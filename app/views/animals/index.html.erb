@@ -1,10 +1,18 @@
-<h1>Concept of Inheritance</h1>
+<div class="d-flex justify-content-center">
+  <div>
+    <h1>Concept of Inheritance</h1>
 
-<% @animals.each do |animal| %>
-  <%=  link_to animal.name, animal_path(animal), class: "btn btn-primary" %>
-<% end %>
+    <div class="">
+      <%= link_to "New Animal", new_animal_path %>
+    </div>
+
+    <h3 class="text-center m-2">Animal</h3>
+
+    <% @animals.each do |animal| %>
+      <%=  link_to animal.name, animal_path(animal), class: "btn btn-primary m-2" %>
+    <% end %>
 
 
-<div>
-  <%= link_to "New Animal", new_animal_path %>
+
+  </div>
 </div>

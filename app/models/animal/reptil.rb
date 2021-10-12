@@ -3,4 +3,8 @@ class Animal::Reptil < Animal
     "Reptil"
   end
 
+  def reproduction
+    "ovovivipar (derived from Reptil class)"
+  end
+
 end

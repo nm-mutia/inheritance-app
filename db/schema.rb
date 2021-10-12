@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_10_11_110325) do
   create_table "animals", force: :cascade do |t|
     t.string "type"
     t.string "name"
+    t.string "details"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["type"], name: "index_animals_on_type"

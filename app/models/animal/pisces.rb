@@ -3,4 +3,12 @@ class Animal::Pisces < Animal
     "Pisces"
   end
 
+  def move
+    "using fins (derived from Pisces class)"
+  end
+
+  def reproduction
+    "ovipar (derived from Pisces class)"
+  end
+
 end
