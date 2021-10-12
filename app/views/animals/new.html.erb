@@ -1,0 +1,16 @@
+<div class="d-flex flex-column p-5">
+<h2>Add new animal:</h2>
+<%= form_with model: @animal do |form| %>
+  <p>
+    <%= form.label :type %><br>
+    <%= form.select :type, Animal.types, class: "form-control" %>
+  </p>
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name, class: "form-control" %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+</div>
