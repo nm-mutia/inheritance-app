@@ -4,11 +4,11 @@ class Animal::Aves < Animal
   end
 
   def move
-    "using wings/legs (derived from Aves class)"
+    "menggunakan sayap/kaki (diturunkan dari Aves class)"
   end
 
   def reproduction
-    "ovipar (derived from Aves class)"
+    "ovipar (diturunkan dari Aves class)"
   end
 
 end

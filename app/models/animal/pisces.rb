@@ -4,11 +4,11 @@ class Animal::Pisces < Animal
   end
 
   def move
-    "using fins (derived from Pisces class)"
+    "menggunakan sirip (diturunkan dari Pisces class)"
   end
 
   def reproduction
-    "ovipar (derived from Pisces class)"
+    "ovipar (diturunkan dari Pisces class)"
   end
 
 end

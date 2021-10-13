@@ -4,7 +4,7 @@ class Animal::Reptil < Animal
   end
 
   def reproduction
-    "ovovivipar (derived from Reptil class)"
+    "ovovivipar (diturunkan dari Reptil class)"
   end
 
 end

@@ -18,6 +18,12 @@ class AnimalsController < ApplicationController
     @animal = Animal.find(params[:id])
   end
 
+  def destroy
+    @animal = Animal.find(params[:id])
+    @animal.destroy
+    redirect_to root_path
+  end
+
   private
 
   def animal_params

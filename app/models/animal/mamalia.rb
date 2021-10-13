@@ -4,7 +4,7 @@ class Animal::Mamalia < Animal
   end
 
   def reproduction
-    "vivipar (derived from Mamalia class)"
+    "vivipar (diturunkan dari Mamalia class)"
   end
 
 end

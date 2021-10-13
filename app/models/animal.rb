@@ -1,15 +1,15 @@
 class Animal < ApplicationRecord
 
   def see
-    "using eyes (derived from Animal class)"
+    "menggunakan mata (diturunkan dari Animal class)"
   end
 
   def eat
-    "using mouth (derived from Animal class)"
+    "menggunakan mulut (diturunkan dari Animal class)"
   end
 
   def move
-    "using legs (derived from Animal class)"
+    "menggunakan kaki (diturunkan dari Animal class)"
   end
 
   def self.types

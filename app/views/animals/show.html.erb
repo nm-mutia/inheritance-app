@@ -9,7 +9,7 @@
     <p>Reproduction : <%= @animal.reproduction %></p>
     <hr class="my-2">
     <p>Details : <%= @animal.details %></p>
-    <%= link_to "Home", root_path, class: "btn btn-primary btn-lg" %>
+    <%= link_to "Home", root_path, class: "btn btn-primary btn-lg mt-2" %>
   </div>
 
   <div class="m-5 p-5">
@@ -32,6 +32,8 @@
     </div>
   </div>
 </div>
+
+<%= link_to "Remove", animal_path(@animal), method: :delete, class: "btn btn-danger mt-5 mx-5" %>
 
 
 
